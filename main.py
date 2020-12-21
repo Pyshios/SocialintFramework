@@ -2,7 +2,8 @@ import  colorama
 from  colorama import Fore , Back ,Style
 colorama.init()
 import solint
-
+import getget
+import owninp
 a1 = "  ____             _       _   _       _     _____                                            _    "
 a2 = " / ___|  ___   ___(_) __ _| | (_)_ __ | |_  |  ____ __ __ _ _ __ ___   _____      _____  _ __| | __"
 a3 = " \___ \ / _ \ / __| |/ _` | | | | '_ \| __| | |_ | '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /"
@@ -21,11 +22,9 @@ print("The Framework use by default IG for scraping photos and Selenium for its 
 print("Please select the prefered option and press enter")
 print(Fore.RED)
 print("1) Use google and Yandex for scaning")
-print("2) Use only google for scaning")
-print("3) Use only Yandex for scaning")
-print("4) Use all scraped data for generate a wordlist")
-print("5) Download all photos from the target account ")
-print("6) Input my own Image URL ")
+print("2) Use all scraped data for generate a wordlist")
+print("3) Download all photos from the target account ")
+print("4) Input my own Image URL ")
 
 choice = input("Select a option: ")
 
@@ -34,5 +33,11 @@ try:
 except:
     print("The select option its not valid")
 
-solint.run_all()
-
+if choice == 1 :
+    solint.run_all()
+elif choice == 2:
+    pass
+elif choice == 3:
+    getget.getget()
+elif choice == 4:
+    owninp.own()
