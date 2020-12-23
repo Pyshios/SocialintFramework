@@ -22,22 +22,27 @@ print("The Framework use by default IG for scraping photos and Selenium for its 
 print("Please select the prefered option and press enter")
 print(Fore.RED)
 print("1) Use google and Yandex for scaning")
-print("2) Use all scraped data for generate a wordlist")
-print("3) Download all photos from the target account ")
-print("4) Input my own Image URL ")
+print("2) Download all photos from the target account ")
+print("3) Input my own Image URL ")
 
 choice = input("Select a option: ")
 
 try:
     a = int(choice)
+
+    if a == 1:
+        solint.run_all()
+    elif a == 2:
+        getget.getget()
+    elif a == 3 :
+        owninp.www()
+    else:
+        print("This choice its a valid choice")
+
+
+
+
+
+
 except:
     print("The select option its not valid")
-
-if choice == 1 :
-    solint.run_all()
-elif choice == 2:
-    pass
-elif choice == 3:
-    getget.getget()
-elif choice == 4:
-    owninp.own()

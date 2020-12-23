@@ -1,4 +1,4 @@
-def own():
+def www():
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
     from selenium.webdriver.common.by import By
@@ -26,6 +26,8 @@ def own():
     colorama.init()
 
     slist = list()
+    print(Fore.MAGENTA)
+    print(Back.LIGHTWHITE_EX)
 
     a = input("Please input a website:")
     for i in a:

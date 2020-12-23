@@ -24,9 +24,9 @@ def run_all():
     import colorama
     from colorama import Back, Fore, Style
     colorama.init()
-
-    driver = webdriver.Firefox(executable_path="C:\\Users\\Win10\\Desktop\\ax\\geckodriver.exe")
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome(executable_path="C:\\Windows\\chromedriver.exe")
+    #driver = webdriver.Firefox(executable_path="C:\\Users\\Win10\\Desktop\\ax\\geckodriver.exe")
+    #river = webdriver.Firefox()
 
     slist = list()
     nerolist = list()
@@ -249,7 +249,7 @@ def run_all():
     ab = itim()
     ab.get_start()  # does nothing
     ab.get_login()  # explained by its name
-    count = 10
+    count = 5
     for i in range(count) :
 
         print("Please close the POP UP")

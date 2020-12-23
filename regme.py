@@ -1,7 +1,12 @@
 def regme():
     import re
     import io
+    import colorama
+    from colorama import Back, Fore, Style
 
+    colorama.init()
+    print(Fore.MAGENTA)
+    print(Back.LIGHTWHITE_EX)
 
     #All list being openned for search for paterns
     allwords = list()
