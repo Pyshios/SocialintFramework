@@ -52,7 +52,7 @@ $ sudo python3 main.py
 ```
 ### Script Working 
 
-![](https://giphy.com/gifs/spZ2VzUAlo7z2ffBBX)
+![gif](https://giphy.com/gifs/spZ2VzUAlo7z2ffBBX)
 
 
 ### Development
