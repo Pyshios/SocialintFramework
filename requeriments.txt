@@ -1,0 +1,8 @@
+selenium==3.141.0
+beautifulsoup4==4.9.1
+lxml==4.5.2
+urllib3==1.25.10
+requests==2.24.0
+regex==2020.7.14
+colorama==0.4.4
+wget==3.2
