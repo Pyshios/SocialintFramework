@@ -53,9 +53,9 @@ def run_all():
             print(Back.LIGHTWHITE_EX)
             print(Fore.GREEN)
 
-            us_in = "rapha.bede@hotmail.com"
+            us_in = input("Please put your email:")
             usr_fb = us_in
-            psw_in = "rrttywry12"
+            psw_in = input("Please put your password:")
             psw_fb = psw_in
             # get your crendetials and use it to log in fb and trough that log in instagram
             usrfb = driver.find_element_by_xpath('//*[@id="email"]')
