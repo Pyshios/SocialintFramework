@@ -31,7 +31,7 @@ The project idea its to give the option of doing a automated WebInt scan on IG ,
 
 Solint Framework uses
 
-* [Selenium] - Selenium Webdriver
+* [Selenium] - Selenium Webdriver (Mozila is used , if want to use another change on the script)
 * [Bs4] - BeautifullSoup framework
 * [Python3] - Python3
 * [Txtfile] - Another extensions on requirements.txt
