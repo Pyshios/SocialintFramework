@@ -51,10 +51,11 @@ $ pip install -r /path/to/requirements.txt
 $ sudo python3 main.py
 ```
 ### Script Working 
+![image](https://media.giphy.com/media/spZ2VzUAlo7z2ffBBX/giphy.gif)
 
-![gif](https://giphy.com/gifs/spZ2VzUAlo7z2ffBBX)
+- Results
 
-
+![Alt Text](https://i.ibb.co/NNnS7Ly/6-1082.png)
 ### Development
 
 Want to contribute? Great!
