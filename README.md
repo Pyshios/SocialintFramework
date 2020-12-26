@@ -52,7 +52,7 @@ $ sudo python3 main.py
 ```
 ### Script Working 
 
-![image](https://i.ibb.co/tmbXncb/1-52.png)
+![image](https://i.ibb.co/3Tbd2Y4/33.gif)
 
 
 ### Development
